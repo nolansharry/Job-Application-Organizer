@@ -1,0 +1,18 @@
+:root {
+  --sans: 'Aptos', 'Trebuchet MS', 'Segoe UI', sans-serif;
+  --heading: 'Aptos Display', 'Trebuchet MS', 'Segoe UI', sans-serif;
+  color: #30384d;
+  background: #fafaff;
+  font: 400 14px/1.45 var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, select { font: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #6878b1; outline-offset: 2px; }
+#root { min-height: 100vh; }
+::selection { color: #17213d; background: #d1d9ff; }
